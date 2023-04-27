@@ -1,0 +1,232 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* typography and icons */
+
+h1{
+    color: #0F8CDF;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+/* layout */
+
+header{
+    width: 30%;
+    margin: 0 auto;
+    background-image: url("https://thumbs.dreamstime.com/b/summer-bbq-food-corner-border-hot-dog-hamburger-buffet-top-down-view-over-dark-slate-banner-background-copy-space-188461655.jpg");
+    background-size: cover;
+    margin-bottom: 30px;
+
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0;
+    color: white;
+}
+
+h3 {
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+}
+
+/* Container */
+
+.container {
+    width: 30%;
+    height: 190px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid grey;
+}
+
+.profile-pic{
+    font-size: 60px;
+    margin-top: 15px;
+}
+
+.left-side {
+    width: 55%;
+}
+
+.item-name, .item-ingredience, .item-price{
+    width: 100%;
+}
+
+.plus-btn {
+    padding: 1.5em 0;
+}
+
+.plus-button{
+    font-size: 20px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    padding: 5px 11px;   
+}
+
+
+/*
+
+.handle{
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 0;
+}
+
+.tweet-text{
+    width: 225px; /* určuje odstup pluska 
+    border: 4px solid yellow;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.total-price {
+    border-top: 3px solid black;
+    width: 90%;
+    margin: 15px 0;
+}
+
+.your-order {
+    width: 90%;
+}
+
+.your-order-list {
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+
+.your-order-price {
+    margin: 5px 0;
+}
+
+.remove {
+    font-size: 10px;
+}
+
+/*
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+*/
+/* images 
+
+.profile-pic{
+    font-size: 60px;
+    margin-top: 5px;
+}
+
+.emoji{
+    width: 80px;
+    height: 80px;
+}
+
+.plus-button{
+    font-size: 20px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    padding: 5px 11px;
+    
+}
+
+/* utility */
+.hidden{
+    display: none;
+}
+
+.hidden-box{
+    display: none;
+}
+
+.complete-box{
+    display: none; /*flex when displayed*/
+    position: fixed;
+    margin: auto;
+    top: 80px;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 2px #666;
+    border-radius: 2px;
+    width: 320px;
+    height: 350px;
+    background-color: #fff;
+}
+
+.complete-box-inner{
+    width: 90%;
+    text-align: center;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.pay-order {
+  width: 100%;
+  background-color: #16DB99;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-btn{
+  width: 100%;
+  background-color: #16DB99;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+}
+
+.thx-message{
+  width: 80%;
+  background-color: #ECFDF5;
+  text-align: center;
+  color: #065F46;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px; 
+}
+
+.order {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.order-list {
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.total-price {
+  width: 25%;
+  margin: 0 auto;
+}
